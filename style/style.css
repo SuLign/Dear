@@ -43,12 +43,26 @@ body {
     text-indent: 2em;
 }
 
-.guideBar  {
+.background {
+    align-self: center;
+    top: 25px;
+    font-size: 80pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    color: rgba(100, 100, 100, 0.144);
+    position: absolute;
+    float: left;
+}
+
+.guideBar {
     background-color: rgba(11, 11, 12, 0.594);
     list-style-type: none;
     position: fixed;
     min-width: 100%;
     color: aqua;
+    height: 27px;
     padding: 0px;
     top: -16px;
     left: 0;
@@ -59,9 +73,11 @@ body {
     display: inline;
     color: rgb(255, 255, 255);
     margin: 0px;
+    float: right;
     padding: 5px;
+    border-color: aqua;
     font-size: smaller;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .guideBar li:hover {
@@ -69,10 +85,10 @@ body {
     cursor: pointer;
     color: antiquewhite;
     margin: 0px;
-    padding: 3px;
-    font-size: small;
+    padding: 5px;
+    font-size: smaller;
     background-color: rgba(104, 99, 99, 0.792);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .guideBar li:active {
@@ -80,7 +96,8 @@ body {
     cursor: pointer;
     color: antiquewhite;
     margin: 0px;
-    padding: 3px;
+    padding: 5px;
+    font-size: smaller;
     background-color: rgba(70, 67, 67, 0.549);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
