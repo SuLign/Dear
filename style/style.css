@@ -13,6 +13,8 @@ body {
     font-size: xx-large;
     font-weight: bold;
     margin: 30pt;
+    top: 200px;
+    margin-top: 150px;
 }
 
 .timetag {
@@ -46,7 +48,7 @@ body {
 .background {
     align-self: center;
     top: 25px;
-    font-size: 80pt;
+    font-size: 70pt;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     width: 100%;
